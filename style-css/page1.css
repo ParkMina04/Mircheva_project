@@ -1,0 +1,136 @@
+.head-bg{
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    height: 349px;
+    position: relative;
+}
+
+.head-bg .menu{
+    font-family: 'Gilroy Regular';
+    font-size: 15px;
+    line-height: 18px;
+    padding-top: 63px;
+    text-transform: uppercase;
+}
+
+.head-bg .menu ul{
+    padding-top: calc(63px - 39px);
+    list-style-type: none;
+}
+
+.head-bg .menu ul li a{
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    margin-right: 95px;
+    float: left;
+}
+
+.head-bg .menu ul li:nth-child(3) a{
+    margin-right: 193px;
+}
+
+.head-bg .menu ul li a:hover{
+    transition: 0.6s;
+    color:#fff;
+}
+
+.head-bg .menu img{
+    margin-top: -24px;
+    float: left;
+    padding-right: 643px;
+}
+
+.head-bg .left-part a{
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    float: left;
+    padding-right: 29px;
+}
+
+.head-bg .left-part a:hover{
+    transition: 0.6s;
+    color: #fff;
+}
+
+.head-bg .left-part .img-links{
+    padding-right: 29px;
+}
+
+.head-bg .left-part .img-links img{
+    float: left;
+    margin: 0;
+    padding: 0;
+    padding-right: 15px;
+    margin-top: -14px;
+}
+
+.head-bg .left-part .img-links{
+    margin-right: 0;
+}
+
+.head-bg .left-part .img-links a{
+    margin: 0;
+    padding: 0;
+    margin-left: -3px;
+}
+
+
+/* 2 conteiner */
+.corusel-center{
+    height: 945px;
+    position: absolute;
+    border: 0;
+    width: 100%;
+    height: 945px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-size: 52px;
+    width: 26px;
+    height: 52px;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border: 1px solid rgba(241, 241, 241, 0.7);
+    border-radius: 100px;
+}
+
+.carousel-indicators{
+    margin-bottom: 64px;
+}
+
+
+/* 3 container */
+.main-link{
+    position: absolute;
+    text-align: center;
+    margin-left: 797px;
+}
+
+.main-link h1{
+    font-family: 'Forum';
+    font-size: 64px;
+    line-height: 71px;
+    text-transform: uppercase;
+    padding-bottom: 61px;
+    color: #fff;
+    margin-top: calc(421px - 349px);
+}
+
+.main-link a{
+    background-color: #1A1A1A;
+    padding: 31px 56px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Gilroy Regular';
+    font-size: 15px;
+    line-height: 17px;
+}
+
+.main-link a:hover{
+    transition: 1s;
+    background-color: #fff;
+    color: #1A1A1A;
+}
